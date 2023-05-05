@@ -1,0 +1,44 @@
+{
+  "name": "@technically/lodash",
+  "version": "4.14.0",
+  "description": "Dual ESM/CommonJS wrapper around lodash ",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "default": "./index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technically-js/lodash.git"
+  },
+  "keywords": [
+    "lodash",
+    "esm",
+    "commonjs",
+    "dual"
+  ],
+  "author": "Ivan Voskoboinyk <ivan@voskoboinyk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technically-js/lodash/issues"
+  },
+  "homepage": "https://github.com/technically-js/lodash#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.0",
+    "@types/lodash-es": "^4.14.0",
+    "lodash": "^4.14.0",
+    "lodash-es": "^4.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
