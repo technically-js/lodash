@@ -41,10 +41,9 @@
   },
   "homepage": "https://github.com/technically-js/lodash#readme",
   "dependencies": {
-    "@types/lodash": "^4.14.0",
-    "@types/lodash-es": "^4.14.0",
-    "lodash": "^4.14.0",
-    "lodash-es": "^4.14.0"
+    "@types/lodash-es": "^4.15.0",
+    "lodash": "^4.15.0",
+    "lodash-es": "^4.15.0"
   },
   "devDependencies": {
     "np": "^7.7.0",
