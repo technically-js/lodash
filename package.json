@@ -1,6 +1,6 @@
 {
   "name": "@technically/lodash",
-  "version": "4.14.0",
+  "version": "0.0.0",
   "description": "Dual ESM/CommonJS wrapper around lodash ",
   "main": "index.cjs",
   "module": "index.mjs",
