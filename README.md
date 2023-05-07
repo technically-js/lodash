@@ -1,4 +1,8 @@
-# ESM/CommonJS wrapper around lodash
+# @technically/lodash
+
+Technically this is an ESM/CommonJS wrapper around lodash
+
+## Why?
 
 This is a "temporary" workaround until `lodash-es` will be merged into `lodash`.
 
