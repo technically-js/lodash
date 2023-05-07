@@ -22,7 +22,7 @@
     "test:esm": "node test.mjs",
     "test:commonjs": "node test.cjs",
     "prepublish": "npm run test",
-    "release": "np"
+    "release": "np --any-branch"
   },
   "repository": {
     "type": "git",
