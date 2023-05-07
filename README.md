@@ -13,6 +13,8 @@ to provide the right lodash dependency based on the way it was required (`requir
 This is especially useful for dual packages that are available as ESM and CommonJS builds simultaneously.
 This way you only need one dependency and one simple import call. The rest will be done by the bundler.
 
+You also don't need a separate `@types/lodash` dependency, as it's already included via this package dependencies 
+and is proxy-exported as the package types. Enjoy! :cocktail:
 
 ## Usage
 
