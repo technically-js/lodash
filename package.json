@@ -14,7 +14,9 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:esm && npm run test:commonjs",
+    "test:esm": "node test.mjs",
+    "test:commonjs": "node test.cjs"
   },
   "repository": {
     "type": "git",
