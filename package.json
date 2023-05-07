@@ -3,7 +3,6 @@
   "version": "4.14.0",
   "description": "Dual ESM/CommonJS wrapper around lodash ",
   "main": "index.cjs",
-  "type": "commonjs",
   "module": "index.mjs",
   "types": "index.d.ts",
   "exports": {
@@ -16,7 +15,9 @@
   "scripts": {
     "test": "npm run test:esm && npm run test:commonjs",
     "test:esm": "node test.mjs",
-    "test:commonjs": "node test.cjs"
+    "test:commonjs": "node test.cjs",
+    "prepublish": "npm run test",
+    "release": "np"
   },
   "repository": {
     "type": "git",
@@ -41,6 +42,7 @@
     "lodash-es": "^4.14.0"
   },
   "devDependencies": {
+    "np": "^7.7.0",
     "typescript": "^5.0.4"
   }
 }
